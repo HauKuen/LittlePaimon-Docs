@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "http://docs.cherishmoon.fun",
+  hostname: "http://docs.paimon.cherishmoon.fun",
 
   author: {
     name: "惜月",
@@ -14,9 +14,9 @@ export default hopeTheme({
 
   logo: "https://static.cherishmoon.fun/LittlePaimon/readme/logo.png",
 
-  repo: "CMHopeSunshine/LittlePaimon",
+  repo: "CMHopeSunshine/LittlePaimon-Docs",
 
-  docsDir: "demo/src",
+  docsDir: "master",
 
   // navbar
   navbar: navbar,

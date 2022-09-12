@@ -28,7 +28,7 @@ export default sidebar([
         text: "原神功能",
         icon: "note",
         prefix: "genshin/",
-        children: ["bind-cookie.md"],
+        children: ["bind-cookie.md", "genshin-info.md"],
       },
       {
         text: "群聊学习",

@@ -9,7 +9,9 @@ category:
 - 命令：**`<help|帮助|菜单>`**
 - 特殊说明：已被[插件管理器](manage/plugin-manage.md)禁用的插件会在帮助图中以**灰色**显示
 - 示例：`help`
-- 结果： ![帮助图](https://static.cherishmoon.fun/LittlePaimon/readme/new/help.jpg)
+::: details 帮助图
+![帮助图](https://static.cherishmoon.fun/LittlePaimon/readme/new/help.jpg)
+:::
 
 ## 自定义帮助图
 ::: tip 帮助
