@@ -24,7 +24,7 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
-  footer: "默认页脚",
+  footer: "<a href=\"https://beian.miit.gov.cn\" target=\"_blank\">粤ICP备2022050246号</a>",
 
   displayFooter: true,
 
