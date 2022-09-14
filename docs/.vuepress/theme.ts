@@ -14,9 +14,9 @@ export default hopeTheme({
 
   logo: "https://static.cherishmoon.fun/LittlePaimon/readme/logo.png",
 
-  repo: "CMHopeSunshine/LittlePaimon-Docs",
+  repo: "CMHopeSunshine/LittlePaimon",
 
-  docsDir: "master",
+  docsDir: "Bot",
 
   // navbar
   navbar: navbar,
@@ -29,6 +29,15 @@ export default hopeTheme({
   displayFooter: true,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+
+  fullscreen: true,
+
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
 
   // blog: {
   //   description: "一个前端开发者",
