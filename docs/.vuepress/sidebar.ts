@@ -13,7 +13,7 @@ export default sidebar([
   },
   {
     text: "功能配置",
-    icon: "note",
+    icon: "config",
     prefix: "/configs/",
     link: "/configs/",
     children: [
@@ -26,7 +26,7 @@ export default sidebar([
       },
       {
         text: "原神功能",
-        icon: "note",
+        icon: "guide",
         prefix: "genshin/",
         children: ["bind-cookie.md",
           "genshin-info.md",
@@ -38,18 +38,19 @@ export default sidebar([
       },
       {
         text: "群聊学习",
-        icon: "note",
+        icon: "comment",
         prefix: "chat/",
         children: [],
       },
       {
         text: "其他功能",
-        icon: "note",
+        icon: "plugin",
         prefix: "other/",
         children: [],
       },
     ],
   },
+    "/question"
   // {
   //   text: "文章",
   //   icon: "note",
