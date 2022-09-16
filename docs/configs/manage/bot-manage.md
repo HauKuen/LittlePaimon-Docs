@@ -1,6 +1,6 @@
 ---
 title: 机器人管理
-icon: markdown
+icon: plugin
 order: 1
 category:
   - 功能配置

@@ -1,6 +1,6 @@
 ---
 title: 安装小派蒙
-icon: markdown
+icon: leaf
 order: 2
 category:
   - 安装指南

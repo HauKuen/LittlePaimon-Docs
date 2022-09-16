@@ -1,6 +1,6 @@
 ---
 title: 原神语音
-icon: markdown
+icon: plugin
 order: 7
 category:
   - 功能配置

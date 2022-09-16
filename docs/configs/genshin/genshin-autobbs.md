@@ -1,6 +1,6 @@
 ---
 title: 原神自动任务
-icon: markdown
+icon: plugin
 order: 5
 category:
   - 功能配置

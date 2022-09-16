@@ -1,6 +1,6 @@
 ---
 title: 常见问题
-icon: markdown
+icon: info
 order: 5
 category:
   - 常见问题
@@ -25,3 +25,18 @@ category:
 
 ## 访问`http://127.0.0.1:13579/go-cqhttp`提示`Not Found`
 在bot目录运行`poetry run nb plugin install nonebot-plugin-gocqhttp`然后再启动bot。
+
+## 查询提示`NoneType object has no attribute level`
+为须弥版本后未更新信息所致，使用命令`更新角色信息`即可。
+
+## 更新时提示`pyproject.toml`有本地更改
+依次执行以下命令：
+```bash
+git stash
+```
+```bash
+git pull
+```
+```bash
+git stash pop
+```

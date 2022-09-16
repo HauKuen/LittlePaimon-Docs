@@ -1,6 +1,6 @@
 ---
 title: 帮助图
-icon: markdown
+icon: style
 order: 1
 category:
   - 功能配置

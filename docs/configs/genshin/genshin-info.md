@@ -1,6 +1,6 @@
 ---
 title: 原神信息查询
-icon: markdown
+icon: plugin
 order: 2
 category:
   - 功能配置

@@ -1,6 +1,6 @@
 ---
 title: 环境配置
-icon: markdown
+icon: leaf
 order: 1
 category:
   - 安装指南

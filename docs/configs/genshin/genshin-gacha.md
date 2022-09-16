@@ -1,6 +1,6 @@
 ---
 title: 原神抽卡
-icon: markdown
+icon: plugin
 order: 6
 category:
   - 功能配置

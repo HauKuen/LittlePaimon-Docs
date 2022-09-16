@@ -1,6 +1,6 @@
 ---
 title: 原神便签与札记
-icon: markdown
+icon: plugin
 order: 4
 category:
   - 功能配置

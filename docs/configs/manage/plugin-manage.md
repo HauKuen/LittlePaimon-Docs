@@ -1,6 +1,6 @@
 ---
 title: 插件管理
-icon: markdown
+icon: plugin
 order: 2
 category:
   - 功能配置

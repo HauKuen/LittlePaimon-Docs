@@ -1,6 +1,6 @@
 ---
 title: 原神WIKI
-icon: markdown
+icon: plugin
 order: 3
 category:
   - 功能配置

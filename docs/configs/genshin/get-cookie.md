@@ -1,6 +1,6 @@
 ---
 title: 获取cookie
-icon: markdown
+icon: plugin
 order: 1
 category:
   - 功能配置
