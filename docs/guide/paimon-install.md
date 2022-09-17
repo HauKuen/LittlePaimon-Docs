@@ -79,6 +79,7 @@ poetry run nb plugin install nonebot-plugin-gocqhttp
 ::: info 云服务器
 如果是云服务器，需开放13579端口，将`127.0.0.1`换成你的公网ip进行访问
 :::
+3. 在Web页面中添加bot账号，添加完成后**重启**bot即可
 ### 方法二 使用go-cqhttp本体
 ::: info 提示
 如果插件使用有问题实在不能解决，再尝试使用go-cqhttp本体
