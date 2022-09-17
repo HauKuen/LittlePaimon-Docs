@@ -17,6 +17,9 @@ category:
 ## 运行报错`No module named xxx`
 在bot目录下执行`poetry run pip install xxx`安装缺少的依赖。
 
+## 运行报错`playwright._impl._api_types.Error`
+通常发生在Linux系统，会有框列出缺少的依赖，解决方法参考[nonebot-plugin-htmlrender仓库](https://github.com/kexue-z/nonebot-plugin-htmlrender)的README。
+
 ## 命令`添加公共ck`没反应
 没配置`超级用户`，配置方法见[配置超级用户](configs/manage/bot-manage.md)。
 
@@ -29,7 +32,18 @@ category:
 ## 查询提示`NoneType object has no attribute level`
 为须弥版本后未更新信息所致，使用命令`更新角色信息`即可。
 
-## 更新时提示`pyproject.toml`有本地更改
+## 更新时提示`pyproject.toml`有冲突
+### 方法一(推荐)
+打开bot目录下的`pyproject.toml`文件，找到下面的内容
+```toml {2}
+[tool.nonebot]
+plugins = ["你自己安装的nonebot插件"]
+plugin_dirs = ["src/plugins"]
+```
+将高亮的那一行的内容先复制备份一下，然后改成`plugins = []`，执行更新，更新完成后再把备份的内容粘贴回去。
+
+### 方法二
+> 该方法是放弃对`pyproject.toml`的更新，有时候可能会导致依赖安装不全
 依次执行以下命令：
 ```bash
 git stash
