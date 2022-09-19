@@ -6,6 +6,7 @@ export default navbar([
   { text: "安装指南", icon: "creative", link: "/guide/" },
   { text: "功能配置", icon: "config", link: "/configs/" },
   { text: "常见问题", icon: "info", link: "/question.md" },
+  { text: "致谢", icon: "advance", link: "/thanks.md" },
   // { text: "Github主页", icon: "github", link: "https://github.com/CMHopeSunshine/LittlePaimon" },
   { text: "QQ频道交流", icon: "slides", link: "https://pd.qq.com/s/kl9dor"},
   { text: "爱发电", icon: "note", link: "https://afdian.net/a/cherishmoon" },

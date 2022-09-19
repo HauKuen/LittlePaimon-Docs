@@ -43,3 +43,7 @@ category:
 - 示例：
   - `pm set 启动CookieWeb on`
   - `pm set 模拟抽卡群冷却 120`
+
+
+## 自定义命令别名
+可以为命令设置自定义别名，具体用法详见[nonebot-plugin-alias](https://github.com/noneplugin/nonebot-plugin-alias)。

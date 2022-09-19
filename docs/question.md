@@ -54,3 +54,6 @@ git pull
 ```bash
 git stash pop
 ```
+
+## `原神日历`中文全是方框
+通常发生在Linux系统，请自行搜索安装中文字体。
