@@ -21,6 +21,7 @@ category:
 - [Enka Network](https://enka.shinshin.moe/) - 角色面板查询数据来源
 - [GenshinMap](https://github.com/MingxuanGame/GenshinMap) - 原神米游社大地图API封装
 - [AutoMihoyoBBS](https://github.com/Womsxd/AutoMihoyoBBS) - 米游社签到和米游币获取功能参考
+- [Amis](https://github.com/baidu/amis) - 网页控制台所使用的前端框架
 
 
 ## 赞助致谢
@@ -49,3 +50,4 @@ category:
 | misakoo            | 60   |
 | 𓆡𓆝𓆟𓆜𓆞𓆝𓆟𓆜𓆞 | 8.88 |
 | 虎妞                 | 9    |
+| 邓晓楠                 | 10    |

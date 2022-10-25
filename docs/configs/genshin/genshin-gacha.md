@@ -1,7 +1,7 @@
 ---
 title: 原神抽卡
 icon: plugin
-order: 6
+order: 7
 category:
   - 功能配置
 ---

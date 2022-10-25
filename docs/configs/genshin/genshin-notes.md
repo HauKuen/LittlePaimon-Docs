@@ -1,7 +1,7 @@
 ---
 title: 原神便签与札记
 icon: plugin
-order: 4
+order: 5
 category:
   - 功能配置
 ---

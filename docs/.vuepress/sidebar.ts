@@ -22,7 +22,7 @@ export default sidebar([
         text: "管理功能",
         icon: "note",
         prefix: "manage/",
-        children: ["bot-manage.md", "plugin-manage.md"],
+        children: ["bot-manage.md", "plugin-manage.md", "web_ui.md"],
       },
       {
         text: "原神功能",
@@ -30,24 +30,21 @@ export default sidebar([
         prefix: "genshin/",
         children: ["bind-cookie.md",
           "genshin-info.md",
+          "genshin-abyss.md",
           "genshin-wiki.md",
           "genshin-notes.md",
           "genshin-autobbs.md",
         "genshin-gacha.md",
-        "genshin-voice.md"],
+        "genshin-voice.md",
+        "miyoushe.md"],
       },
       {
-        text: "群聊学习",
+        text: "群聊学习(编辑中)",
         icon: "comment",
         prefix: "chat/",
         children: [],
       },
-      {
-        text: "其他功能",
-        icon: "plugin",
-        prefix: "other/",
-        children: [],
-      },
+      "/configs/other/other.md"
     ],
   },
     "/question"

@@ -4,7 +4,7 @@ icon: home
 title: 主页
 heroImage: https://static.cherishmoon.fun/LittlePaimon/readme/logo.png
 heroText: 小派蒙
-tagline: 基于Nonebot2的原神QQ机器人
+tagline: 原神多功能QQ娱乐机器人
 actions:
   - text: 安装指南 💡
     link: /guide/
@@ -42,10 +42,14 @@ features:
     icon: layout
     details: 集成分群权限管理，方便管理机器人。
 
+  - title: 网页控制台
+    icon: layout
+    details: 提供一个方便的网页控制台对机器人进行管理。
+
   - title: NoneBot2插件支持
     icon: markdown
     details: 支持为绝大多数NoneBot2插件生成帮助图。
-    
+
 copyright: false
 footer: MIT Licensed | Copyright © 2022-present 惜月
 ---
