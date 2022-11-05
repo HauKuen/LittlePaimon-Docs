@@ -6,12 +6,17 @@ category:
   - 致谢
 ---
 
+## 关于作者
+作者[惜月](https://github.com/CMHopeSunshine)，目前是一名大四学生，学业较繁忙，仅有零碎时间维护这个项目，Issue可能回复不及时，如果你有任何问题，可以点击上方`QQ频道交流`寻求帮助，感谢体谅。
+
+如果本项目对你有帮助，希望能在[Github](https://github.com/CMHopeSunshine/LittlePaimon)给个Star，能[爱发电](https://afdian.net/a/cherishmoons)赞助一下就最好啦，你的支持是我维护的动力，十分感谢。
+
 ## 开发致谢
 使用或参考了以下大佬/开源项目的代码/资源，十分感谢！
 - [NoneBot2](https://github.com/nonebot/nonebot2) - 跨平台异步机器人框架
 - [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) - Onebot标准的框架实现
 - [西北一枝花](https://github.com/Nwflower) - 美工大大以及各种图鉴攻略图提供者
-- [nicklly](https://github.com/nicklly) 、[SCU_OP](https://github.com/SCUOP) 、[meatjam](https://github.com/meatjam)、[lovecpm](https://github.com/lovecpm) - PR贡献者们
+- [nicklly](https://github.com/nicklly) 、[SCU_OP](https://github.com/SCUOP) 、[meatjam](https://github.com/meatjam)、[lovecpm](https://github.com/lovecpm)、[繁花湮](https://github.com/linworld) - PR贡献者们
 - [egenshin](https://github.com/pcrbot/erinilis-modules/tree/master/egenshin) - 抽卡和猜语音代码、资源参考
 - [bluemushoom](https://bbs.nga.cn/nuke.php?func=ucp&uid=62861898) - 全角色收益曲线和参考面板攻略图来源
 - [GenshinUID](https://github.com/KimigaiiWuyi/GenshinUID) - 部分map资源来源及代码参考
@@ -51,3 +56,4 @@ category:
 | 𓆡𓆝𓆟𓆜𓆞𓆝𓆟𓆜𓆞 | 8.88 |
 | 虎妞                 | 9    |
 | 邓晓楠                 | 10    |
+| 冬季巧克力                 | 5    |
