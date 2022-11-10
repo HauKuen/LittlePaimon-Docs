@@ -69,7 +69,7 @@ poetry run python bot.py
 :::
 
 ## 安装go-cqhttp
-### 方法一  使用go-cqhttp插件(推荐)
+### 方法一 使用go-cqhttp插件
 
 #### 1.安装插件
 在bot目录运行：
@@ -86,7 +86,7 @@ poetry run nb plugin install nonebot-plugin-gocqhttp
 
 ### 方法二 使用go-cqhttp本体
 ::: info 提示
-如果插件使用出现问题不能解决，请尝试使用go-cqhttp本体
+如果插件使用出现问题不能解决，请使用go-cqhttp本体
 :::
 #### 1.下载go-cqhttp
 前往[Releases](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-rc3)，选择对应系统的版本进行下载

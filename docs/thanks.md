@@ -15,6 +15,7 @@ category:
 使用或参考了以下大佬/开源项目的代码/资源，十分感谢！
 - [NoneBot2](https://github.com/nonebot/nonebot2) - 跨平台异步机器人框架
 - [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) - Onebot标准的框架实现
+- [米游社](https://bbs.mihoyo.com/) - 核心功能的API来源
 - [西北一枝花](https://github.com/Nwflower) - 美工大大以及各种图鉴攻略图提供者
 - [nicklly](https://github.com/nicklly) 、[SCU_OP](https://github.com/SCUOP) 、[meatjam](https://github.com/meatjam)、[lovecpm](https://github.com/lovecpm)、[繁花湮](https://github.com/linworld) - PR贡献者们
 - [egenshin](https://github.com/pcrbot/erinilis-modules/tree/master/egenshin) - 抽卡和猜语音代码、资源参考
@@ -27,6 +28,10 @@ category:
 - [GenshinMap](https://github.com/MingxuanGame/GenshinMap) - 原神米游社大地图API封装
 - [AutoMihoyoBBS](https://github.com/Womsxd/AutoMihoyoBBS) - 米游社签到和米游币获取功能参考
 - [Amis](https://github.com/baidu/amis) - 网页控制台所使用的前端框架
+- [minigg](https://www.minigg.cn/) - 部分资源接口来源
+- [安柏计划](https://ambr.top/chs) - 每日材料数据接口来源
+
+如本项目对您构成了侵权，请及时联系[作者](https://github.com/CMHopeSunshine)。
 
 
 ## 赞助致谢
@@ -57,3 +62,8 @@ category:
 | 虎妞                 | 9    |
 | 邓晓楠                 | 10    |
 | 冬季巧克力                 | 5    |
+
+
+## 其他
+- 本项目完全开源免费，仅供学习使用，禁止用于商业用途和非法行为，如有他人非法使用，与本作者无关。
+- 如果您使用并修改了本项目源码，请遵循[GPL-3.0](https://github.com/CMHopeSunshine/LittlePaimon/blob/Bot/LICENSE)将源码开源。
