@@ -6,4 +6,24 @@ category:
   - 功能配置
 ---
 
-此栏介绍小派蒙的功能以及相关配置，点击左方目录查看。
+## 目录
+
+- [帮助](help.md)
+
+- 管理功能
+  - [机器人管理](manage/bot-manage.md)
+  - [插件管理](manage/plugin-manage.md)
+  - [Web UI控制台](manage/web_ui.md)
+
+- 原神功能
+    - [绑定Cookie](genshin/bind-cookie.md)
+    - [原神信息查询](genshin/genshin-info.md)
+    - [原神深渊查询](genshin/genshin-abyss.md)
+    - [原神WIKI](genshin/genshin-wiki.md)
+    - [原神便签与札记](genshin/genshin-notes.md)
+    - [原神自动任务](genshin/genshin-autobbs.md)
+    - [原神抽卡](genshin/genshin-gacha.md)
+    - [原神语音](genshin/genshin-voice.md)
+    - [米游社相关功能](genshin/miyoushe.md)
+
+- [其他功能](other/other.md)
