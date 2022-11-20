@@ -11,9 +11,9 @@ category:
 - [帮助](help.md)
 
 - 管理功能
+  - [Web UI控制台](manage/web_ui.md)
   - [机器人管理](manage/bot-manage.md)
   - [插件管理](manage/plugin-manage.md)
-  - [Web UI控制台](manage/web_ui.md)
 
 - 原神功能
     - [绑定Cookie](genshin/bind-cookie.md)

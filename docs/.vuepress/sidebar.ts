@@ -22,7 +22,7 @@ export default sidebar([
         text: "管理功能",
         icon: "note",
         prefix: "manage/",
-        children: ["bot-manage.md", "plugin-manage.md", "web_ui.md"],
+        children: ["web_ui.md", "bot-manage.md", "plugin-manage.md"],
       },
       {
         text: "原神功能",
