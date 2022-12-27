@@ -10,7 +10,7 @@ tag:
 ## 安装Python
 
 ::: info
-至少需要Python3.8及以上版本，可通过`python -V`或`python3 -V`查看版本号
+需要Python3.8~3.10版本，可通过`python -V`或`python3 -V`查看版本号
 :::
 
 ::: tabs#system
