@@ -22,9 +22,12 @@ category:
 ### 安装依赖报错`Could not find a version that satisfies the requirement xxx`
 可能的原因：
 - 网络问题，如果开了代理，请**关闭代理**
-- Python版本不对，执行`python -V`查看版本，至少需要3.8
+- Python版本不对，执行`python -V`或`python3 -V`查看版本，需要3.8-3.10版本，版本不对请升降级版本重新安装
 
 ## 启动问题
+
+### 提示读取资源列表或下载资源时出错等
+网络问题，如果开了代理，请**关闭代理**
 
 ### 访问go-cqhttp网页提示`Not Found`
 在bot目录运行`poetry run nb plugin install nonebot-plugin-gocqhttp`然后再启动bot。
