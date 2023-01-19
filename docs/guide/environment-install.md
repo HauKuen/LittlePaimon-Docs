@@ -21,10 +21,13 @@ tag:
 
 如果是更低的版本，请自行安装python3.8-3.10版本。
 
+Debian系统和Ubuntu系统同理。
+
 ### CentOS
 建议更换Ubuntu，否则请自行编译安装Python3.8-3.10版本，~~耗子尾汁~~
 
-CentOS在后续也可能有更多的问题，因此强烈不建议您使用CentOS。
+CentOS在后续也可能有更多的问题，因此**强烈不建议**您使用CentOS
+如果你执意使用，后续出现的额外问题，例如`playwright`缺依赖，请自行搜索解决。
 
 ### Windows
 可以去[Python官网](https://www.python.org/downloads/)下载安装包，安装时记得勾选`Add Python 3.x to PATH`。

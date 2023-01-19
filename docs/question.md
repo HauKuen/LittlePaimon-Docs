@@ -6,6 +6,17 @@ category:
   - 常见问题
 ---
 
+## 前言
+出现问题时，首先请确认你的Bot已更新到最新版本，且已尝试使用`poetry install`更新依赖库。
+
+然后在本页面以及[issue](https://github.com/CMHopeSunshine/LittlePaimon/issues)中查找是否有类似的问题。
+
+如果没有类似的问题或仍然得不到解决，请向本Bot的仓库提交[issue](https://github.com/CMHopeSunshine/LittlePaimon/issues)或加入上方的QQ频进行反馈。
+
+反馈时请提供足够详细的日志，~~没有日志的话我只能给你算一卦~~。
+
+报错日志通常只有最后的几行是有用的，因此截图请截全，或者截最后几行，无用的截图~~我也只能给你算一卦~~。
+
 ## 安装问题
 
 ### 安装依赖报错`Could not find a version that satisfies the requirement xxx`
