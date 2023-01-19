@@ -27,6 +27,18 @@ category:
 ### 报错`playwright._impl._api_types.Error`
 通常发生在Linux系统，会有框列出缺少的依赖，解决方法参考[nonebot-plugin-htmlrender仓库](https://github.com/kexue-z/nonebot-plugin-htmlrender)的README。
 
+
+### 报错`ImportError: DDL load failed while importing _path: 找不到指定的模块`
+这是上游`numpy`和`matplotlib`库的问题。
+#### 方法一
+卸载这两个库，从其他镜像源(例如阿里云)安装
+```bash
+poetry pip uninstall numpy matplotlib
+poetry pip install numpy matplotlib -i https://mirrors.aliyun.com/pypi/simple/
+```
+#### 方法二
+同样先卸载这两个库`poetry pip uninstall numpy matplotlib`，然后自己去pypi官方下载numpy带有mkl的库，记得对应你的python版本，手动安装，然后再直接装matplotlib。
+
 ## 更新问题
 
 ### 提示`Your local changes to the following files would be overwritten by merge`
