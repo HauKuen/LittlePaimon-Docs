@@ -20,7 +20,10 @@ category:
 - 部分功能需要私人Cookie才能使用。
 :::
 
-### 私聊绑定
+### 通过米游社扫码绑定(推荐)
+用户发送`原神扫码绑定`指令，Bot会发送一个二维码，用户使用米游社扫码后，Bot会自动绑定该用户的原神账号Cookie。
+
+### 通过私聊指令绑定
 私聊向Bot发送`ysb Cookie`来绑定私人Cookie。
 
 ### 通过`CookieWeb`绑定
@@ -29,3 +32,6 @@ category:
 :::
 - 发送命令`ysb`可查看`CookieWeb`的地址。
 - 在浏览器中打开`CookieWeb`的地址，输入对应的`QQ号`和`Cookie`进行绑定。
+
+### Bot主人手动添加
+Bot主人可以登录`Web UI`网页控制台手动添加公共和私人Cookie。

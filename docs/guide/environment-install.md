@@ -7,80 +7,93 @@ category:
 tag:
   - Markdown
 ---
+
+
 ## 安装Python
 
 ::: info
-需要Python3.8~3.10版本，可通过`python -V`或`python3 -V`查看版本号
+需要Python3.8-3.10版本，可通过`python -V`或`python3 -V`查看版本号
 :::
 
-::: tabs#system
+### Ubuntu
 
-@tab:active Windows
-### 下载安装程序
-点击[Python3.9.10官方下载链接](https://www.python.org/ftp/python/3.9.10/python-3.9.10-amd64.exe)
-如果下载缓慢，请自行搜索国内镜像进行下载
-### 运行安装程序
-![安装](https://static.cherishmoon.fun/blog/LittlePaimon/pyi.png)
-点击`Install Now`，注意一定要勾选`Add Python 3.9 to PATH`!!!
-然后一直点击下一步即可
+如果是20+的版本，系统会自带python3.8或3.10版本，可以直接使用。
 
-@tab Linux
-> 以CentOS发行版为例，如果是Ubuntu，将`yum`替换为`apt`，其他发行版请自行查阅
+如果是更低的版本，请自行安装python3.8-3.10版本。
 
-### 安装前置依赖
-```bash
-yum -y install gcc* make libffi-devel zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel
-```
-### 下载及安装
+### CentOS
+建议更换Ubuntu，否则请自行编译安装Python3.8-3.10版本，~~耗子尾汁~~
 
-#### 下载
-```bash
-wget https://mirrors.huaweicloud.com/python/3.9.10/Python-3.9.10.tgz
-````
-#### 解压
-```bash
-tar xf Python-3.9.10.tgz&&cd Python-3.9.10
-```
-### 编译安装
-```bash
-./configure
-```
-```bash
-make&&make install
-```
-### 建立软链接
-> 如果运行命令`python3 -V`不是刚刚安装的版本的话，才需要进行这一步
-#### 备份原链接
-```bash
-mv /usr/bin/python3 /usr/bin/python3.bak
-```
-#### python3软链接
-```bash
-ln -s /usr/local/bin/python3 /usr/bin/python3
-```
-#### pip3软链接
-```bash
-ln -s /usr/local/bin/pip3 /usr/bin/pip3
-```
+CentOS在后续也可能有更多的问题，因此强烈不建议您使用CentOS。
 
-:::
+### Windows
+可以去[Python官网](https://www.python.org/downloads/)下载安装包，安装时记得勾选`Add Python 3.x to PATH`。
+
+也可以在Microsoft Store(微软商店)下载安装Python3.8-3.10。
+
+### 检查安装是否成功
+安装完后，通过命令`python -V`或`python3 -V`查看版本号来确认是否安装成功。
+
+如果`python -V`显示的版本不是3.8+而`python3 -V`是的话，请将本教程后续涉及到的`python`改为`python3`。
+
+
 
 ## 安装Poetry
 
 ::: info 包管理器
-我们需要用到`Poetry`作为Python环境和包管理器
+我们需要用到`Poetry`作为Python环境和包管理器。
+更详细具体安装方法请参考[Poetry官方文档](https://python-poetry.org/docs/#installation)
 ::: 
+### 使用官方安装脚本来安装
+#### Linux, macOS
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+````
+#### Windows
+```bash
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+```
+
+### 使用pipx来安装
+
+如果没有pipx，需要先安装pipx
+```bash
+pip install pipx
+```
+然后运行一下命令来安装Poetry，如果仍提示没有pipx，请尝试重启刷新一下命令行
+```bash
+pipx install poetry
+```
+
+### 使用pip来安装
 在终端输入以下命令安装Poetry
 ```bash
 pip install poetry
 ```
+
+
+### 检查安装是否成功
 运行以下命令查看版本已确认安装成功
 ```bash
 poetry -V
 ```
 
 ## 安装git
-自行搜索安装教程
+::: info About Git
+git用于下载和更新Bot代码，如果你不想用git，也可以在Github直接下载zip包，但是不推荐。
+:::
+Linux发行版可以用其对应的包管理器安装，比如Ubuntu用`apt install git`，CentOS用`yum install git`。
+
+Windows请自行搜索安装方法，下载安装包来安装。
+
+使用`git --version`来检查是否安装成功。
 
 ## 安装ffmpeg
-ffmpeg用于bot发送语音和视频，请自行搜索安装教程
+::: info About ffmpeg
+ffmpeg在本Bot主要用于发送语音消息，如果您不需要发送语音消息的功能，可以不安装。
+:::
+Ubuntu系统可以直接使用`apt install ffmpeg`来安装。
+
+其他系统请自行搜索安装教程，记得添加到**环境变量**中。
+
+使用`ffmpeg -version`来检查是否安装成功。

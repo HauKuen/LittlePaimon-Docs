@@ -10,22 +10,29 @@ tag:
 
 ## 安装小派蒙
 
-1. 选择一个你想要存放的目录，最好不要有中文
+1. 选择一个你想要存放的目录，最好**不要有中文**，如果使用了中文路径，报错了的话请尝试更换为英文路径。
 
 2. 运行以下命令，等待下载完成
 ::: info 下载源
-优先选择`Github`，如果下载缓慢，再尝试`Gitee`
+优先选择`Github`，如果下载缓慢或连接不上，再尝试其他。
 :::
 ::: code-tabs#source
 
 @tab Github
 ```bash
-git clone --depth=1 https://github.com/CMHopeSunshine/LittlePaimon
+git clone --depth=1 --single-branch https://github.com/CMHopeSunshine/LittlePaimon
 ```
-
+@tab Github镜像1
+```bash
+git clone --depth=1 --single-branch https://github.cherishmoon.fun/https://github.com/CMHopeSunshine/LittlePaimon
+```
+@tab Github镜像2
+```bash
+git clone --depth=1 --single-branch https://ghproxy.com/https://github.com/CMHopeSunshine/LittlePaimon
+```
 @tab Gitee
 ```bash
-git clone --depth=1 https://gitee.com/CherishMoon/LittlePaimon
+git clone --depth=1 --single-branch https://gitee.com/CherishMoon/LittlePaimon
 ```
 
 :::
@@ -56,14 +63,14 @@ COMMAND_SEP=[""]
 - 在bot目录运行以下命令进行启动(二选一)
 ::: code-tabs#shell
 
-@tab nb脚手架
-```bash
-poetry run nb run
-```
-
 @tab python
 ```bash
 poetry run python bot.py
+```
+
+@tab nb脚手架
+```bash
+poetry run nb run
 ```
 
 :::
@@ -123,4 +130,11 @@ account: # 账号相关
 #### 4.运行go-cqhttp
 修改配置后，再次运行go-cqhttp，如果账号登录需要验证，根据具体提示进行操作即可。
 
-以后每次启动bot，都需要同时额外启动go-cqhttp
+**以后每次启动bot，都需要同时额外启动go-cqhttp**
+
+### 账号登录不上
+如果在云服务器上登录qq时有类似`有风险，请使用同一网络`、`验证失败`、`账号被冻结或密码错误`等提示而登录不上，
+可以先在你的**本地电脑**下载go-cqhttp，登录同一账号，登录成功后，将`device.json`和`session.token`这两个文件上传到云服务器，**替换掉云服务器上的同名文件**，再次启动bot即可。
+
+- 如果是gocq本体，那就是替换gocq所在目录的这两个文件。
+- 如果使gocq插件，那就是替换`bot目录/accounts/你的qq号/`下的这两个文件。

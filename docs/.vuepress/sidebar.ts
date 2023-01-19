@@ -38,12 +38,13 @@ export default sidebar([
         "genshin-voice.md",
         "miyoushe.md"],
       },
-      {
-        text: "群聊学习(编辑中)",
-        icon: "comment",
-        prefix: "chat/",
-        children: [],
-      },
+      "learning_chat.md",
+      // {
+      //   text: "群聊学习(编辑中)",
+      //   icon: "comment",
+      //   prefix: "chat/",
+      //   children: [],
+      // },
       "/configs/other/other.md"
     ],
   },
