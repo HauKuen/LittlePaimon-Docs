@@ -8,6 +8,19 @@ tag:
   - Markdown
 ---
 
+## 前言
+
+如果本文档文字教程有不理解的地方，可以查看这些视频教程。
+不过视频教程可能并不适合最新版本，所以建议视频和本文档对照着看，以本文档为主。
+
+- [原神QQ机器人 小派蒙 LittlePaimon for Ubuntu安装](https://www.bilibili.com/video/BV1Mt4y1c7VH)
+- [【原神】QQ机器人-派蒙/LittlePaimon Ubuntu保姆级搭建教程](https://www.bilibili.com/video/BV1AR4y1o7cM)
+- [【原神】QQ机器人-派蒙/LittlePaimon Windows搭建教程重置版](https://www.bilibili.com/video/BV1gG411J7KC)
+
+感谢这些小伙伴提供的视频教程。
+
+在本项目的QQ频道中也有更多的文字教程，安装过程中遇到问题可以在QQ频道中提问，点击上方加入QQ频道或搜索**尘世闲游**加入。
+
 ## 安装小派蒙
 
 1. 选择一个你想要存放的目录，最好**不要有中文**，如果使用了中文路径，报错了的话请尝试更换为英文路径。
