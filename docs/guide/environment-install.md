@@ -12,7 +12,9 @@ tag:
 ## 安装Python
 
 ::: info
-需要Python3.8-3.10版本，可通过`python -V`或`python3 -V`查看版本号
+需要Python3.8-3.10版本，可通过`python -V`或`python3 -V`查看版本号。
+
+该部分教程可以参考[Well404](https://space.bilibili.com/33138220)的[NoneBot2.0.0RC 全平台保姆级新手教学](https://www.bilibili.com/video/BV1984y1b7JY)中关于安装python的教程。
 :::
 
 ### Ubuntu
@@ -20,6 +22,8 @@ tag:
 如果是20+的版本，系统会自带python3.8或3.10版本，可以直接使用。
 
 如果是更低的版本，请自行安装python3.8-3.10版本。
+
+Ubuntu可能没有自带pip命令，需要运行`apt install python3-pip`进行安装
 
 Debian系统和Ubuntu系统同理。
 
@@ -62,6 +66,8 @@ curl -sSL https://install.python-poetry.org | python3 -
 如果没有pipx，需要先安装pipx
 ```bash
 pip install pipx
+或
+pip3 install pipx
 ```
 然后运行一下命令来安装Poetry，如果仍提示没有pipx，请尝试重启刷新一下命令行
 ```bash
@@ -72,6 +78,8 @@ pipx install poetry
 在终端输入以下命令安装Poetry
 ```bash
 pip install poetry
+或
+pip3 install poetry
 ```
 
 
