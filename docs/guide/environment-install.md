@@ -52,6 +52,8 @@ CentOS在后续也可能有更多的问题，因此**强烈不建议**您使用C
 更详细具体安装方法请参考[Poetry官方文档](https://python-poetry.org/docs/#installation)
 ::: 
 ### 使用官方安装脚本来安装
+官方的安装脚本可能会比较慢，如果不能接受等待过长时间，可以使用其他的安装方法。
+
 #### Linux, macOS
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -

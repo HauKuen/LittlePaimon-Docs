@@ -138,3 +138,5 @@ account: # 账号相关
 
 - 如果是gocq本体，那就是替换gocq所在目录的这两个文件。
 - 如果使gocq插件，那就是替换`bot目录/accounts/你的qq号/`下的这两个文件。
+
+有关该部分教程可以参考可以参考[Well404](https://space.bilibili.com/33138220)的[NoneBot2.0.0RC 全平台保姆级新手教学](https://www.bilibili.com/video/BV1984y1b7JY)中关于登录go-cqhttp的教程。
