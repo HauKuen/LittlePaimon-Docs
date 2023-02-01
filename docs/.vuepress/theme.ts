@@ -111,9 +111,16 @@ export default hopeTheme({
     //   // provider: "Waline",
     //   // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     // },
+    comment: {
+      provider: "Waline",
+      serverURL: "comment.cherishmoon.fun", // your server url
+      dark: 'auto',
+      meta: ['nick', 'mail'],
+      requiredMeta: ['nick'],
+      reaction: true
+    },
 
     mdEnhance: {
-      enableAll: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
