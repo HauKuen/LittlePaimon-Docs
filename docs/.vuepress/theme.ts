@@ -16,7 +16,13 @@ export default hopeTheme({
 
   repo: "CMHopeSunshine/LittlePaimon",
 
-  docsDir: "Bot",
+  docsRepo: "https://github.com/CMHopeSunshine/LittlePaimon-Docs",
+
+  docsBranch: "master",
+
+  docsDir: "docs",
+
+  print: false,
 
   // navbar
   navbar: navbar,
@@ -28,7 +34,7 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
   fullscreen: true,
 
