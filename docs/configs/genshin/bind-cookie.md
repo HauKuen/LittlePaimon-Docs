@@ -27,8 +27,7 @@ category:
 私聊向Bot发送`ysb Cookie`来绑定私人Cookie。
 
 ### 通过`CookieWeb`绑定
-::: info 前提
-需Bot管理者开启`CookieWeb`功能。
+::: info 需Bot管理者开启CookieWeb功能。
 :::
 - 发送命令`ysb`可查看`CookieWeb`的地址。
 - 在浏览器中打开`CookieWeb`的地址，输入对应的`QQ号`和`Cookie`进行绑定。

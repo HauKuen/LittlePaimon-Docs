@@ -93,13 +93,11 @@ poetry -V
 
 ## 安装git
 ::: info About Git
-git用于下载和更新Bot代码，如果你不想用git，也可以在Github直接下载zip包，但是不推荐。
+git用于下载和更新Bot代码，可以先用`git --version`查看是否已安装git，如已安装，可跳过。
 :::
 Linux发行版可以用其对应的包管理器安装，比如Ubuntu用`apt install git`，CentOS用`yum install git`。
 
 Windows请自行搜索安装方法，下载安装包来安装。
-
-使用`git --version`来检查是否安装成功。
 
 ## 安装ffmpeg
 ::: info About ffmpeg

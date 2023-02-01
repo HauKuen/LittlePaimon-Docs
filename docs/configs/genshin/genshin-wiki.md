@@ -41,6 +41,12 @@ category:
 ![cmat](https://static.cherishmoon.fun/LittlePaimon/RoleMaterials/%E6%8F%90%E7%BA%B3%E9%87%8C%E6%9D%90%E6%96%99.jpg)
 :::
 
+## 尘歌壶摹本材料
+查看指定尘歌壶摹数所属摹本一共所需的材料列表。
+- 命令：**`尘歌壶摹本<摹数>`**
+- 示例：
+  - `尘歌壶摹本1234567890`
+
 ## 原神日历
 查看原神活动日历。
 - 命令：**`原神日历`**

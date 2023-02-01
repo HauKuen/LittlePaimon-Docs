@@ -7,10 +7,10 @@ heroText: 小派蒙
 tagline: 原神多功能QQ娱乐机器人
 actions:
   - text: 安装指南 💡
-    link: /guide/
+    link: /deploy
     type: primary
 
-  - text: 功能及配置 🏠
+  - text: 功能列表及配置 🏠
     link: /configs/
 
 features:

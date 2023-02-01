@@ -7,8 +7,7 @@ category:
 ---
 
 ## 原神抽卡记录
-::: tip
-该功能需要绑定私人Cookie，且Cookie中含有Stoken，也可以手动导入数据。
+::: tip 该功能需要绑定私人Cookie，且Cookie中需含有Stoken，也可以手动导入数据。
 :::
 更新原神抽卡记录。
 - 命令：**`更新抽卡记录(uid)`**

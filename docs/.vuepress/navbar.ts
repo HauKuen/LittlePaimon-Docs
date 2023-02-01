@@ -3,7 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   // "/home",
-  { text: "安装指南", icon: "creative", link: "/guide/" },
+  { text: "安装指南", icon: "creative", link: "/deploy.md" },
   { text: "功能配置", icon: "config", link: "/configs/" },
   { text: "常见问题", icon: "info", link: "/question.md" },
   { text: "致谢", icon: "advance", link: "/thanks.md" },

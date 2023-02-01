@@ -30,8 +30,7 @@ category:
   - `@小派蒙 全部重签`
 
 ## 米游币获取
-::: tip
-- 该功能需要绑定私人Cookie，且Cookie中含Stoken。
+::: tip 该功能需要绑定私人Cookie，且Cookie中含Stoken。
 :::
 进行米游币任务操作，获取米游币。
 - 命令：**`myb获取(uid)`**

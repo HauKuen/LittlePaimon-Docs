@@ -3,14 +3,15 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar([
   "/",
   // "/slides",
-  {
-    text: "安装部署",
-    icon: "creative",
-    prefix: "/guide/",
-    link: "/guide/",
-    // children: "structure",
-    children: ["environment-install.md", "paimon-install.md"]
-  },
+  // {
+  //   text: "安装部署",
+  //   icon: "creative",
+  //   prefix: "/guide/",
+  //   link: "/guide/",
+  //   // children: "structure",
+  //   children: ["environment-install.md", "paimon-install.md"]
+  // },
+    "/deploy",
   {
     text: "功能配置",
     icon: "config",
@@ -39,12 +40,6 @@ export default sidebar([
         "miyoushe.md"],
       },
       "learning_chat.md",
-      // {
-      //   text: "群聊学习(编辑中)",
-      //   icon: "comment",
-      //   prefix: "chat/",
-      //   children: [],
-      // },
       "/configs/other/other.md"
     ],
   },
