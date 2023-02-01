@@ -109,7 +109,7 @@ poetry run nb plugin install nonebot-plugin-gocqhttp
 如果插件使用出现问题不能解决，请使用go-cqhttp本体
 :::
 #### 1.下载go-cqhttp
-前往[Releases](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-rc3)，选择对应系统的版本进行下载
+前往[Releases](https://github.com/Mrs4s/go-cqhttp/releases)，选择对应系统的版本进行下载
 
 #### 2.首次运行go-cqhttp
 > 如果是windows系统，双击exe运行，并根据提示生成脚本继续操作

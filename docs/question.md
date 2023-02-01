@@ -11,9 +11,9 @@ category:
 
 然后在本页面以及[issue](https://github.com/CMHopeSunshine/LittlePaimon/issues)中查找是否有类似的问题。
 
-如果没有类似的问题或仍然得不到解决，请向本Bot的仓库提交[issue](https://github.com/CMHopeSunshine/LittlePaimon/issues)或加入上方的QQ频进行反馈。
+如果没有类似的问题或仍然得不到解决，请向本Bot的仓库提交[issue](https://github.com/CMHopeSunshine/LittlePaimon/issues)或加入上方的QQ频道进行反馈。
 
-反馈时请提供足够详细的日志，~~没有日志的话我只能给你算一卦~~。
+反馈时请提供足够详细的日志，没有日志的话谁也帮不了你~~我只能给你算一卦~~。
 
 报错日志通常只有最后的几行是有用的，因此截图请截全，或者截最后几行，无用的截图~~我也只能给你算一卦~~。
 
@@ -49,8 +49,8 @@ category:
 #### 方法二
 卸载这两个库，从其他镜像源(例如阿里云)安装
 ```bash
-poetry pip uninstall numpy matplotlib
-poetry pip install numpy matplotlib -i https://mirrors.aliyun.com/pypi/simple/
+poetry run pip uninstall numpy matplotlib
+poetry run pip install numpy matplotlib -i https://mirrors.aliyun.com/pypi/simple/
 ```
 #### 方法三
 同样先卸载这两个库`poetry pip uninstall numpy matplotlib`，然后自己去pypi官方下载numpy带有mkl的库，记得对应你的python版本，手动安装，然后再直接装matplotlib。
@@ -110,6 +110,6 @@ git stash pop
 请确认是否在米游社退出了登录、重复登录或修改了密码，如果是的话请重新获取Cookie，最好开启**无痕模式**，如果不是的话，纯Cookie失效，至于为什么失效，请问米游社。
 
 ### 管理页面外网无法访问
-请确保nonebot的port为`0.0.0.0`，且**端口**已在服务器内部防火墙和云服务商的安全组中开放。
+请确保`.env.prod`文件中的host为`0.0.0.0`，且**端口**已在服务器内部防火墙和云服务商的安全组中开放。
 
 如果还是不行，建议使用`nginx`等进行**反向代理**，具体用法自行查阅。
