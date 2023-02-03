@@ -85,8 +85,12 @@ nb paimon create  # 创建小派蒙项目
 在创建完成后，**继续运行以下命令**：
 ```shell
 cd LittlePaimon  # LittlePaimon为你刚刚填写的项目目录名
-nb paimon res  # 给出的两次选择均保持默认
-nb paimon run playwright install-deps  # 仅Ubuntu系统需要运行，安装playwright相关依赖
+nb paimon res  # 给出的两次选择均保持默认(回车两次)
+
+# 安装playwright相关依赖
+nb paimon run playwright install  # Windows系统运行这条
+nb paimon run playwright install-deps  # Ubuntu系统运行这条
+
 nb paimon run  # 启动小派蒙
 ```
 ::: tip 到此，您的小派蒙Bot安装成功！
