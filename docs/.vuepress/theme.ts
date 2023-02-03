@@ -88,6 +88,9 @@ export default hopeTheme({
   // },
 
   plugins: {
+    copyCode: {
+      showInMobile: true
+    },
     // blog: {
     //   autoExcerpt: true,
     // },

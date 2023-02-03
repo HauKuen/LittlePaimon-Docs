@@ -7,7 +7,7 @@ category:
 ---
 
 ## 关于作者
-作者[惜月](https://github.com/CMHopeSunshine)，目前是一名大四学生，学业较繁忙，仅有零碎时间维护这个项目，Issue可能回复不及时，如果你有任何问题，可以点击上方`QQ频道交流`寻求帮助，感谢体谅。
+作者[惜月](https://github.com/CMHopeSunshine)，目前是一名大四学生，学业较繁忙，仅有零碎时间维护这个项目，Issue可能回复不及时，如果你有任何问题，可以进入[QQ频道-尘世闲游](https://pd.qq.com/s/kl9dor)寻求帮助，感谢体谅。
 
 如果本项目对你有帮助，希望能在[Github](https://github.com/CMHopeSunshine/LittlePaimon)给个Star，能[爱发电](https://afdian.net/a/cherishmoons)赞助一下就最好啦，你的支持是我维护的动力，十分感谢。
 

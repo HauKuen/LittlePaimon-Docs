@@ -9,15 +9,17 @@ tag:
 ---
 
 ## 前言
-小派蒙推荐配置为4G运行内存及以上，最终大约需要5G存储空间。
+如果你只是想体验一下小派蒙的功能，查询自己的原神信息，可以来[QQ频道-尘世闲游](https://pd.qq.com/s/kl9dor)，这里提供了一个现成的派蒙供大家在频道中**免费使用**。
+
+如果你想搭建一个属于自己的小派蒙，可以继续看本教程，教程将通过[小派蒙脚手架插件](https://github.com/CMHopeSunshine/nb-cli-plugin-littlepaimon)，以最简时间从0搭建一个小派蒙机器人，通常你只需要跟着本教程**复制粘贴**即可。
 
 关于Linux各种发行版，这里推荐您使用`Ubuntu20+`或`Debian11+`系统，**极不推荐**使用CentOS或其他不常见发行版系统。
 
-本教程将通过[小派蒙脚手架插件](https://github.com/CMHopeSunshine/nb-cli-plugin-littlepaimon)，以最简时间从0搭建一个小派蒙机器人，通常你只需要跟着本教程**复制粘贴**即可。
-
 本教程中关于[前置环境](#前置环境)、[安装go-cqhttp](#go-cqhttp)等可以参考[Well404](https://space.bilibili.com/33138220)的[NoneBot2.0.0RC 全平台保姆级新手教学](https://www.bilibili.com/video/BV1984y1b7JY)中的相关视频教程。
 
-如安装过程中遇到问题可以在QQ频道中提问，点击上方QQ频道或[这里](https://pd.qq.com/s/kl9dor)加入。
+小派蒙推荐配置为**4G运行内存**及以上(2G的话需要关闭某些功能)，最终大约需要**5G存储空间**。
+
+如安装过程中遇到问题也可以在QQ频道中提问，点击上方QQ频道或[这里](https://pd.qq.com/s/kl9dor)加入。
 
 ::: warning 以下涉及到的命令中，#后面的为注释，不要复制运行。
 :::
@@ -75,9 +77,9 @@ nb paimon create  # 创建小派蒙项目
 - 项目名称：你想要存放的小派蒙文件夹名，默认为`LittlePaimon`
 - 克隆源：推荐默认，如果下载失败可尝试其他源
 - 超级用户QQ号：相当于机器人的管理员，填写你自己的QQ号
-- 立刻安装依赖：请选择是(直接回车)
-- 创建虚拟环境：请选择是(直接回车)，随后会进行下载和安装依赖，时长取决于你的网络情况
-- go-cqhttp安装和使用方式：详见下方[关于go-cqhttp](#go-cqhttp)
+- 立刻安装依赖：请选择是(Y)，即直接回车
+- 创建虚拟环境：如果您没有其他Python开发需求的话，可以选**否(N)**，如果有，请选**是(Y)**
+- go-cqhttp安装和使用方式：该怎么选，详见下方[关于go-cqhttp](#go-cqhttp)
 
 
 在创建完成后，**继续运行以下命令**：
@@ -87,10 +89,15 @@ nb paimon res  # 给出的两次选择均保持默认
 nb paimon run playwright install-deps  # 仅Ubuntu系统需要运行，安装playwright相关依赖
 nb paimon run  # 启动小派蒙
 ```
+::: tip 到此，您的小派蒙Bot安装成功！
+此后，你只需要在派蒙的目录下使用命令`nb paimon run`即可启动小派蒙Bot。
+:::
 
-以下为快速演示视频：
+以下为使用脚手架快速安装演示视频：
 
 <a href="https://asciinema.org/a/555256" target="_blank"><img src="https://asciinema.org/a/555256.svg" /></a>
+
+---
 
 ## go-cqhttp
 
@@ -113,12 +120,39 @@ nb paimon run  # 启动小派蒙
 - Windows: 双击`go-cqhttp.exe`，按指引运行
 - Ubuntu(Linux): 在其目录下使用命令`./go-cqhttp`运行
 
-
 > 如果你在`nb paimon create`创建派蒙时已经选择了插件版，想换成本体版，可以进行以下操作：
 > - 1. 编辑小派蒙目录中的`pyproject.toml`文件， 找到`"nonebot_plugin_gocqhttp"`，将它和它后面的逗号删除，保存文件。
 > - 2. 找一个合适的目录(例如小派蒙目录的上层)，运行`nb paimon create -g`，下载和配置`go-cqhttp`本体
 
-### 账号登录不上
+### 方式三 已有现成的`go-cqhttp`
+那你只需要在`go-cqhttp`的配置文件`config.yml`中的**连接服务列表**处添加派蒙的ws链接地址即可。
+```yml
+  - ws-reverse:
+      # 反向WS Universal 地址
+      universal: ws://127.0.0.1:13579/onebot/v11/ws
+      # 重连间隔 单位毫秒
+      reconnect-interval: 3000
+      middlewares:
+        <<: *default # 引用默认中间件
+```
+在`servers:`下方添加上述代码，**注意缩进!**，例如下面这个例子：
+```yml {9-15}
+account: # 账号相关
+  uin: 1233456 # QQ账号
+  password: '' # 密码为空时使用扫码登录
+......
+# 连接服务列表
+servers:
+  - ws-reverse:
+      # 反向WS Universal 地址
+      universal: ws://127.0.0.1:13579/onebot/v11/ws
+      # 重连间隔 单位毫秒
+      reconnect-interval: 3000
+      middlewares:
+        <<: *default # 引用默认中间件
+```
+
+### 账号登录不上的解决方法
 如果在云服务器上登录qq时有类似`有风险，请使用同一网络`、`验证失败`、`账号被冻结或密码错误`等提示而登录不上，
 可以先在你的**本地电脑**下载go-cqhttp，登录同一账号，登录成功后，将`device.json`和`session.token`这两个文件上传到云服务器，**替换掉云服务器上的同名文件**，再次启动bot即可。
 
@@ -158,7 +192,7 @@ screen -r gocq  # 调回前台
 
 此外，你还可以使用`nohup`、`pm2`、`supervisor`等命令，请自行搜索。
 
-## 其他
+## 老教程
 以下为之前使用Poetry来安装的老教程，供老用户参考：
 - [环境配置](guide/environment-install.md)
 - [安装小派蒙](guide/paimon-install.md)
