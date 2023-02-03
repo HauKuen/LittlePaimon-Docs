@@ -88,10 +88,8 @@ cd LittlePaimon  # LittlePaimon为你刚刚填写的项目目录名
 nb paimon res  # 给出的两次选择均保持默认(回车两次)
 
 # 安装playwright相关依赖
-nb paimon run playwright install  # Windows系统运行这条
-nb paimon run playwright install-deps  # Ubuntu系统运行这条
-
-nb paimon run  # 启动小派蒙
+nb paimon run playwright install chromium  # Windows系统运行这条
+nb paimon run playwright install-deps chromium  # Ubuntu系统运行这条
 ```
 ::: tip 到此，您的小派蒙Bot安装成功！
 此后，你只需要在派蒙的目录下使用命令`nb paimon run`即可启动小派蒙Bot，并根据你选择的`go-cqhttp`方式，启动并登录机器人账号。
