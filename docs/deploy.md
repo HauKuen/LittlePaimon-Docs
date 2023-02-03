@@ -86,10 +86,7 @@ nb paimon create  # 创建小派蒙项目
 ```shell
 cd LittlePaimon  # LittlePaimon为你刚刚填写的项目目录名
 nb paimon res  # 给出的两次选择均保持默认(回车两次)
-
-# 安装playwright相关依赖
-nb paimon run playwright install chromium  # Windows系统运行这条
-nb paimon run playwright install-deps chromium  # Ubuntu系统运行这条
+nb paimon run playwright install chrome --with-deps  # 安装playwright相关依赖
 ```
 ::: tip 到此，您的小派蒙Bot安装成功！
 此后，你只需要在派蒙的目录下使用命令`nb paimon run`即可启动小派蒙Bot，并根据你选择的`go-cqhttp`方式，启动并登录机器人账号。
@@ -201,3 +198,12 @@ screen -r gocq  # 调回前台
 以下为之前使用Poetry来安装的老教程，供老用户参考：
 - [环境配置](guide/environment-install.md)
 - [安装小派蒙](guide/paimon-install.md)
+
+
+## 安装NoneBot插件商店的插件
+::: tip 指路
+点击此处前往[NoneBot插件商店](https://v2.nonebot.dev/store)
+:::
+在商店处复制你想要安装的插件的**安装命令**， 在小派蒙的目录运行命令即可安装。
+
+基本上支持所有NoneBot插件，不过可能部分插件的指令有冲突，可以使用`nb plugin uninstall 插件名`命令来卸载插件。
