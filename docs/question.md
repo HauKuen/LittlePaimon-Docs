@@ -27,33 +27,34 @@ category:
 ## 启动问题
 
 ### 提示读取资源列表或下载资源时出错等
-网络问题，如果开了代理，请**关闭代理**
+网络问题导致无法连接上资源地址。
+- 如果开了代理，请**关闭代理**，
+- 如果没开代理，请在启动后前往`Web UI控制台-机器人配置-配置项管理-其他配置-github资源地址`，换成其他几个多试试。
+  ![res_url_errror](https://static.cherishmoon.fun/LittlePaimon/docs/res_url_error.png)
 
 ### 访问go-cqhttp网页提示Not Found
-在bot目录运行`poetry run nb plugin install nonebot-plugin-gocqhttp`然后再启动bot。
+- 使用脚手架安装的用户：在bot目录运行`nb plugin install nonebot-plugin-gocqhttp`然后再启动bot。
+- 使用poetry安装的用户：在bot目录运行`poetry run nb plugin install nonebot-plugin-gocqhttp`然后再启动bot。
 
 ### 报错error while attempting to bind on address
-端口已被占用，请确认是否重复启动，没有的话请修改`.env.prod`文件中的`PORT`端口号再启动。
+端口已被占用，请确认**是否重复启动**，没有的话请修改`.env.prod`文件中的`PORT`端口号再启动。
 
 ### 报错No module named xxx
-在bot目录下执行`poetry install`安装依赖。
+- 使用脚手架安装的用户：在bot目录下执行`nb paimon install`安装依赖。
+- 使用poetry安装的用户：在bot目录下执行`poetry install`安装依赖。
+
+### 报错提示运行playwright install但安装后仍然无效
+说明你使用了虚拟环境，但没有激活虚拟环境
+- 使用脚手架安装的用户：在bot目录下执行`nb paimon run playwright install chrome`
+- 使用poetry安装的用户：在bot目录下执行`poetry run playwright install chrome`
+- 或者手动激活虚拟环境后，运行`playwright install chrome`
 
 ### 报错playwright._impl._api_types.Error
-通常发生在Linux系统，会有框列出缺少的依赖，解决方法参考[nonebot-plugin-htmlrender仓库](https://github.com/kexue-z/nonebot-plugin-htmlrender)的README。
+通常发生在CentOS系统，~~趁早跑路换Ubuntu吧~~，会有框列出缺少的依赖，解决方法参考[nonebot-plugin-htmlrender仓库](https://github.com/kexue-z/nonebot-plugin-htmlrender)的README。
 
 
 ### 报错ImportError: DDL load failed while importing _path: 找不到指定的模块
-这是上游`numpy`和`matplotlib`库的问题。
-#### 方法一
-百度搜索下载并安装`vc_redist.x64.exe`，安装后重启Bot
-#### 方法二
-卸载这两个库，从其他镜像源(例如阿里云)安装
-```bash
-poetry run pip uninstall numpy matplotlib
-poetry run pip install numpy matplotlib -i https://mirrors.aliyun.com/pypi/simple/
-```
-#### 方法三
-同样先卸载这两个库`poetry pip uninstall numpy matplotlib`，然后自己去pypi官方下载numpy带有mkl的库，记得对应你的python版本，手动安装，然后再直接装matplotlib。
+百度搜索下载并安装`vc_redist.x64.exe`，安装完后重启Bot
 
 ## 更新问题
 
@@ -69,14 +70,11 @@ plugin_dirs = ["src/plugins"]
 
 #### 方法二
 > 该方法是放弃对`pyproject.toml`的更新，有时候可能会导致依赖安装不全
+
 依次执行以下命令：
 ```bash
 git stash
-```
-```bash
 git pull
-```
-```bash
 git stash pop
 ```
 
