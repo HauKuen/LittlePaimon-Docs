@@ -15,7 +15,7 @@ category:
   - `今天材料`
   - `周三材料`
 ::: details 每日材料图
-![mat](https://static.cherishmoon.fun/LittlePaimon/DailyMaterials/%E5%91%A8%E4%B8%80%E5%91%A8%E5%9B%9B.jpg)
+![mat](https://s1.ax1x.com/2023/02/05/pS6WTbj.jpg)
 :::
 
 ## 图鉴
@@ -25,8 +25,18 @@ category:
   - `护摩之杖武器图鉴`
   - `圣遗物图鉴追忆`
   - `若陀原魔图鉴`
+
+
+::: details 角色图鉴图
+![character](https://s1.ax1x.com/2023/02/05/pS6fAG6.jpg)
+:::
+
 ::: details 武器图鉴图
-![weapon](https://static.cherishmoon.fun/LittlePaimon/WeaponMaps/%E6%8A%A4%E6%91%A9%E4%B9%8B%E6%9D%96.jpg)
+![weapon](https://s1.ax1x.com/2023/02/05/pS6WIKg.jpg)
+:::
+
+::: details 七圣召唤图鉴图
+![card](https://s1.ax1x.com/2023/02/05/pS6W4xS.jpg)
 :::
 
 ## 角色攻略
@@ -37,8 +47,13 @@ category:
   - `提纳里角色材料`
   - `钟离参考面板`
   - `钟离收益曲线`
+
+::: details 角色攻略图
+![guild](https://s1.ax1x.com/2023/02/05/pS6WorQ.jpg)
+:::
+
 ::: details 角色材料图
-![cmat](https://static.cherishmoon.fun/LittlePaimon/RoleMaterials/%E6%8F%90%E7%BA%B3%E9%87%8C%E6%9D%90%E6%96%99.jpg)
+![material](https://s1.ax1x.com/2023/02/05/pS6f6QU.jpg)
 :::
 
 ## 尘歌壶摹本材料
@@ -53,6 +68,11 @@ category:
 - 别名：`原神日程|活动日历`
 - 示例：
   - `原神日历`
+
+::: details 原神日历图
+![cal](https://s1.ax1x.com/2023/02/05/pS6Wh28.jpg)
+:::
+
 ---
 开启|关闭原神日历自动推送。
 - 命令：**`原神日历<开启|关闭><时间>`**

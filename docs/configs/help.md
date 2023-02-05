@@ -10,7 +10,7 @@ category:
 - 特殊说明：已被[插件管理器](manage/plugin-manage.md)禁用的插件会在帮助图中以**灰色**显示
 - 示例：`help`
 ::: details 帮助图
-![帮助图](https://static.cherishmoon.fun/LittlePaimon/readme/new/help.jpg)
+![帮助图](https://s1.ax1x.com/2023/02/05/pS6gWCT.jpg)
 :::
 
 ## 自定义帮助图

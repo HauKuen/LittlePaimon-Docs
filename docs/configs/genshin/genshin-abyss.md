@@ -23,7 +23,7 @@ category:
   - `sy100123456`
   - `sy上期`
     ::: details 深渊战报图
-    ![sy](https://static.cherishmoon.fun/LittlePaimon/readme/new/sy.jpg)
+    ![sy](https://s1.ax1x.com/2023/02/05/pS6gcEq.jpg)
     :::
 
 ## 深渊统计

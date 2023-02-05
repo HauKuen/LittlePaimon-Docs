@@ -30,7 +30,7 @@ category:
 网络问题导致无法连接上资源地址。
 - 如果开了代理，请**关闭代理**，
 - 如果没开代理，请在启动后前往`Web UI控制台-机器人配置-配置项管理-其他配置-github资源地址`，换成其他几个多试试。
-  ![res_url_errror](https://static.cherishmoon.fun/LittlePaimon/docs/res_url_error.png)
+  ![res_url_error](https://s1.ax1x.com/2023/02/05/pS62bLj.png)
 
 ### 访问go-cqhttp网页提示Not Found
 - 使用脚手架安装的用户：在bot目录运行`nb plugin install nonebot-plugin-gocqhttp`然后再启动bot。

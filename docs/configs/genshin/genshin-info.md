@@ -26,7 +26,7 @@ category:
 - 别名：`ys|原神卡片|个人卡片`
 - 示例：`ys100123456`
 ::: details 玩家卡片图
-![ys](https://static.cherishmoon.fun/LittlePaimon/readme/new/ys.jpg)
+![ys](https://s1.ax1x.com/2023/02/05/pS6g25V.jpg)
 :::
 
 ## 角色背包
@@ -37,7 +37,7 @@ category:
 - 别名：`ysa|角色背包|练度统计`
 - 示例：`ysa100123456`
 ::: details 角色背包图
-![ysa](https://static.cherishmoon.fun/LittlePaimon/readme/new/ysa.jpg)
+![ysa](https://s1.ax1x.com/2023/02/05/pS6ggU0.jpg)
 :::
 
 ## 角色卡片
@@ -50,7 +50,7 @@ category:
   - `ysc钟离100123456`
   - `角色卡片椰羊`
 ::: details 角色卡片图
-![ysc](https://static.cherishmoon.fun/LittlePaimon/readme/new/ysc.jpg)
+![ysc](https://s1.ax1x.com/2023/02/05/pS6gf8U.jpg)
 :::
 ---
 获取角色卡片中的同人图原图
@@ -66,7 +66,7 @@ category:
     - `ysd钟离100123456`
     - `角色面板椰羊`
 ::: details 角色面板图
-![ysd](https://static.cherishmoon.fun/LittlePaimon/readme/new/ysd.jpg)
+![ysd](https://s1.ax1x.com/2023/02/05/pS6gh2F.jpg)
 :::
 
 ## 专属角色别名

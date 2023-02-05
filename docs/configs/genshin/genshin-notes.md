@@ -15,7 +15,7 @@ category:
 - 示例：
   - `ssbq100123456`
 ::: details 实时便签图
-![ssbq](https://static.cherishmoon.fun/LittlePaimon/readme/ssbq.jpg)
+![ssbq](https://s1.ax1x.com/2023/02/05/pS6gybn.jpg)
 :::
 ---
 设置实时便签提醒，在树脂|钱币达到一定量时向你发送提醒。
@@ -36,5 +36,5 @@ category:
   - `myzj100123456`
   - `myzj8 100123456`
 ::: details 每月札记图
-![myzj](https://static.cherishmoon.fun/LittlePaimon/readme/myzj.jpg)
+![myzj](https://s1.ax1x.com/2023/02/05/pS624FP.jpg)
 :::

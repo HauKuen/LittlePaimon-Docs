@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 主页
-heroImage: https://static.cherishmoon.fun/LittlePaimon/readme/logo.png
+heroImage: https://s1.ax1x.com/2023/02/05/pS62DJK.png
 heroText: 小派蒙
 tagline: 原神多功能QQ娱乐机器人
 actions:
