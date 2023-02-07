@@ -3,11 +3,11 @@ title: 帮助图
 icon: style
 order: 1
 category:
-  - 功能配置
+  - Bot管理
 ---
 ## 查看帮助图
 - 命令：**`<help|帮助|菜单>`**
-- 特殊说明：已被[插件管理器](manage/plugin-manage.md)禁用的插件会在帮助图中以**灰色**显示
+- 特殊说明：已被[插件管理器](plugin-manage.md)禁用的插件会在帮助图中以**灰色**显示
 - 示例：`help`
 ::: details 帮助图
 ![帮助图](https://s1.ax1x.com/2023/02/05/pS6gWCT.jpg)
@@ -18,7 +18,7 @@ category:
 - 小派蒙本身所有功能**均支持**详细的帮助图，并且通过`monkey patch`方式支持**绝大数多**的NoneBot2插件。
 - 在每次启动时，小派蒙会为所有**已加载**的插件生成其帮助图的`yml`格式文件，保存在`bot目录/config/plugins/`文件夹中，你可以通过修改`yml`文件来自定义帮助图(**重启生效**)。
 - 修改`yml`需要你了解`yml`的基本语法，可以参考[这里](https://blog.csdn.net/weixin_43340943/article/details/105953673)。
-- 不过我更**推荐**您使用本Bot提供的[`Web UI`网页控制台](manage/web_ui.md)来修改，更**简单便捷**。
+- 不过我更**推荐**您使用本Bot提供的[`Web UI`网页控制台](web_ui.md)来修改，更**简单便捷**。
 :::
 每个`yml`文件都为**固定格式**，这是`原神实时便签`插件的示例：
 ```yaml

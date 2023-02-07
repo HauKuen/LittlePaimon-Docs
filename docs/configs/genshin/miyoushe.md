@@ -3,7 +3,7 @@ title: 米游社相关功能
 icon: plugin
 order: 9
 category:
-  - 功能配置
+  - 原神
 ---
 
 ## 米游社帖子解析

@@ -3,7 +3,7 @@ title: Web UI控制台
 icon: plugin
 order: 3
 category:
-  - 功能配置
+  - Bot管理
 ---
 
 ## 说明

@@ -36,11 +36,12 @@ features:
 
   - title: 人工智能
     icon: people
-    link: /configs/learning_chat.md
+    link: /configs/other/learning_chat.md
     details: 具有学习能力，会学习群友的发言。
 
   - title: 更多功能
     icon: more
+    link: /configs/other/screenshot.md
     details: 还有更多有趣的功能。
 
   - title: 快速部署
@@ -55,12 +56,12 @@ features:
 
   - title: 网页控制台
     icon: layout
-    link: //configs/manage/web_ui.md
+    link: /configs/manage/web_ui.md
     details: 提供一个方便的网页控制台对机器人进行管理。
 
   - title: NoneBot2插件支持
     icon: plugin
-    link: /configs/help.md
+    link: /configs/manage/help.md
     details: 支持绝大多数NoneBot2插件，并为其生成命令帮助图。
 
 copyright: false

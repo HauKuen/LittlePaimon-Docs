@@ -30,6 +30,7 @@ category:
 - [Amis](https://github.com/baidu/amis) - 网页控制台所使用的前端框架
 - [minigg](https://www.minigg.cn/) - 部分资源接口来源
 - [安柏计划](https://ambr.top/chs) - 每日材料数据接口来源
+- [TRSS](https://TRSS.me) - 🌌 TRSS脚本
 
 如本项目对您构成了侵权，请及时联系[作者](https://github.com/CMHopeSunshine)。
 

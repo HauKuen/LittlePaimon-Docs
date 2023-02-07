@@ -3,7 +3,7 @@ title: 绑定cookie
 icon: plugin
 order: 1
 category:
-  - 功能配置
+  - 原神
 ---
 以下涉及的Cookie的获取方法请看[获取Cookie](get-cookie.md)。
 

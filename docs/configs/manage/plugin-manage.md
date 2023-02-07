@@ -3,7 +3,7 @@ title: 插件管理
 icon: plugin
 order: 2
 category:
-  - 功能配置
+  - Bot管理
 ---
 ::: info 权限
 使用以下命令需要`超级用户(SUPERUSER)`、`群主(OWNER)`或`群管理(ADMIN)`权限。

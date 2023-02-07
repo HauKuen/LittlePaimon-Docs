@@ -1,58 +1,52 @@
-import { navbar } from "vuepress-theme-hope";
+import {navbar} from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
-  // "/home",
-  { text: "安装指南", icon: "creative", link: "/deploy.md" },
-  { text: "功能配置", icon: "config", link: "/configs/" },
-  { text: "常见问题", icon: "info", link: "/question.md" },
-  { text: "致谢", icon: "advance", link: "/thanks.md" },
-  // { text: "Github主页", icon: "github", link: "https://github.com/CMHopeSunshine/LittlePaimon" },
-  { text: "QQ频道交流", icon: "slides", link: "https://pd.qq.com/s/kl9dor"},
-  { text: "爱发电", icon: "note", link: "https://afdian.net/a/cherishmoon" },
-  // {
-  //   text: "博文",
-  //   icon: "edit",
-  //   prefix: "/posts/",
-  //   children: [
-  //     {
-  //       text: "文章 1-4",
-  //       icon: "edit",
-  //       prefix: "article/",
-  //       children: [
-  //         { text: "文章 1", icon: "edit", link: "article1" },
-  //         { text: "文章 2", icon: "edit", link: "article2" },
-  //         "article3",
-  //         "article4",
-  //       ],
-  //     },
-  //     {
-  //       text: "文章 5-12",
-  //       icon: "edit",
-  //       children: [
-  //         {
-  //           text: "文章 5",
-  //           icon: "edit",
-  //           link: "article/article5",
-  //         },
-  //         {
-  //           text: "文章 6",
-  //           icon: "edit",
-  //           link: "article/article6",
-  //         },
-  //         "article/article7",
-  //         "article/article8",
-  //       ],
-  //     },
-  //     { text: "文章 9", icon: "edit", link: "article9" },
-  //     { text: "文章 10", icon: "edit", link: "article10" },
-  //     "article11",
-  //     "article12",
-  //   ],
-  // },
-  // {
-  //   text: "主题文档",
-  //   icon: "note",
-  //   link: "https://vuepress-theme-hope.github.io/v2/zh/",
-  // },
+    "/",
+    // "/home",
+    {text: "安装指南", icon: "creative", link: "/deploy.md"},
+    {
+        text: "功能列表及配置",
+        icon: "config",
+        children: [
+            {
+                text: "原神相关",
+                prefix: "/configs/genshin/",
+                children: [
+                    "genshin-info",
+                    "genshin-abyss",
+                    "genshin-wiki",
+                    "genshin-gacha",
+                    "genshin-autobbs",
+                    "genshin-notes",
+                    "genshin-voice",
+                    "miyoushe",
+                    "get-cookie",
+                    "bind-cookie"
+                ]
+            },
+            {
+                text: "Bot管理",
+                prefix: "/configs/manage/",
+                children: [
+                    "help",
+                    "bot-manage",
+                    "web_ui",
+                    "plugin-manage"
+                ]
+            },
+            {
+                text: "其他功能",
+                prefix: "/configs/other/",
+                children: [
+                    "learning_chat",
+                    "screenshot",
+                    "world60s"
+                ]
+            }
+        ]
+    },
+    {text: "常见问题", icon: "info", link: "/question.md"},
+    {text: "致谢", icon: "advance", link: "/thanks.md"},
+    {text: "QQ频道交流", icon: "slides", link: "https://pd.qq.com/s/kl9dor"},
+    {text: "爱发电", icon: "note", link: "https://afdian.net/a/cherishmoon"},
 ]);

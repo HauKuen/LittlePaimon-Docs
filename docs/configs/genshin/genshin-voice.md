@@ -3,7 +3,7 @@ title: 原神语音
 icon: plugin
 order: 8
 category:
-  - 功能配置
+  - 原神
 ---
 
 ## 更新原神语音资源

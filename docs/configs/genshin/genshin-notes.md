@@ -3,7 +3,7 @@ title: 原神便签与札记
 icon: plugin
 order: 5
 category:
-  - 功能配置
+  - 原神
 ---
 
 ## 实时便签

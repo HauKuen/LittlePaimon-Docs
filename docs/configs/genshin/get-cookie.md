@@ -3,7 +3,7 @@ title: 获取cookie
 icon: plugin
 order: 1
 category:
-  - 功能配置
+  - 原神
 ---
 ::: warning 安全提示
 Cookie的作用相当于**账号密码**，请勿轻易将Cookie泄露。

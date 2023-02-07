@@ -3,7 +3,7 @@ title: 原神WIKI
 icon: plugin
 order: 3
 category:
-  - 功能配置
+  - 原神
 ---
 
 ## 每日材料

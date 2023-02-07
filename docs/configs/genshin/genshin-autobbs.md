@@ -3,7 +3,7 @@ title: 原神自动任务
 icon: plugin
 order: 6
 category:
-  - 功能配置
+  - 原神
 ---
 
 ## 米游社签到

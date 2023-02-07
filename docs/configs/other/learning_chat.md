@@ -1,9 +1,9 @@
 ---
 title: 群聊学习
-icon: style
+icon: plugin
 order: 1
 category:
-  - 功能配置
+  - 其他功能
 ---
 本Bot还有一个能够让Bot根据群友的规律性发言，自动选择历史语录或者表情包进行回复的学习插件。
 

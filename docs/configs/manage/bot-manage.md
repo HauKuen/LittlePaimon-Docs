@@ -3,7 +3,7 @@ title: 机器人管理
 icon: plugin
 order: 1
 category:
-  - 功能配置
+  - Bot管理
 ---
 ## 设置超级用户和机器人昵称
 ::: info

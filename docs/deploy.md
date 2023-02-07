@@ -17,7 +17,7 @@ tag:
 
 本教程中关于[前置环境](#前置环境)、[安装go-cqhttp](#go-cqhttp)等可以参考[Well404](https://space.bilibili.com/33138220)的[NoneBot2.0.0RC 全平台保姆级新手教学](https://www.bilibili.com/video/BV1984y1b7JY)中的相关视频教程。
 
-小派蒙推荐配置为**4G运行内存**及以上(2G的话需要关闭某些功能)，最终大约需要**5G存储空间**。
+小派蒙推荐配置为**4G运行内存**及以上(2G的话需要关闭某些功能)，大约需要**2G存储空间**。
 
 如安装过程中遇到问题也可以在QQ频道中提问，点击上方QQ频道或[这里](https://pd.qq.com/s/kl9dor)加入。
 

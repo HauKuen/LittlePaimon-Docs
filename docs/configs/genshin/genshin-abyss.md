@@ -3,7 +3,7 @@ title: 原神深渊查询
 icon: plugin
 order: 3
 category:
-  - 功能配置
+  - 原神
 ---
 ::: tip
 以下命令中的`(uid)`代表原神uid，如果没有给出，则会从上一次查询的uid、已绑定的私人Cookie或昵称中获取，在查询后就会自动记录uid。
