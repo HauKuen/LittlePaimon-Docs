@@ -100,7 +100,6 @@ nb paimon run playwright install chrome --with-deps  # 安装playwright相关依
 
 ## go-cqhttp
 
-
 `go-cqhttp`是一个无头QQ客户端，负责与小派蒙交互，进行消息的收发。
 
 ### 方式一 `nonebot-plugin-gocqhttp`插件
@@ -168,42 +167,55 @@ servers:
 需要保持命令行窗口一直运行，不能关闭(如果使用的是`go-cqhttp`本体，那它窗口也不能关闭)
 
 ### Ubuntu
-推荐使用`screen`命令来管理后台运行。
-::: tip 如果系统没有自带screen，可以使用命令 apt install screen 来安装
+推荐使用`tmux`命令来管理后台运行。
+::: tip 如果系统没有自带tmux，可以使用命令 apt install tmux 来安装
 :::
 
-在小派蒙所在目录，使用screen来后台运行小派蒙：
+在小派蒙所在目录，使用tmux来后台运行小派蒙：
 ```shell
-screen -S paimon nb paimon run
+tmux new -s paimon nb paimon run
 ```
-运行后，会新开一个终端窗口来运行派蒙，按 **`Ctrl+A+D`** 即可让它退到**后台**。
+运行后，会新开一个终端窗口来运行派蒙，按 **`Ctrl+B D`** 即可让它退到**后台**。
 
 使用以下命令即可让它重新回到**前台**：
 ```shell
-screen -r paimon
+tmux a -t paimon
 ```
 ---
 
 `go-cqhttp`本体版同理：
 ```shell
-screen -S gocq ./go-cqhttp  # 运行
-screen -r gocq  # 调回前台
+tmux new -s gocq ./go-cqhttp  # 运行
+tmux a -t gocq  # 调回前台
 ```
 ---
-关于`screen`的详细使用方法请参考[Linux screen命令 菜鸟教程](https://www.runoob.com/linux/linux-comm-screen.html)。
+关于`tmux`的详细使用方法请参考[Tmux使用手册](http://louiszhai.github.io/2017/09/30/tmux)。
 
-此外，你还可以使用`nohup`、`pm2`、`supervisor`等命令，请自行搜索。
+此外，你还可以使用[screen](https://www.runoob.com/linux/linux-comm-screen.html)、[nohup](https://www.runoob.com/linux/linux-comm-nohup.html)、[pm2](https://pm2.keymetrics.io/)、[supervisor](http://www.supervisord.org/)等命令或工具来实现后台运行，请自行查阅相关用法。
 
-## 老教程
-以下为之前使用Poetry来安装的老教程，供老用户参考：
+## 通过 TRSS 脚本安装
+如果你不熟悉命令行操作，也可以使用交互式脚本安装管理小派蒙（在 TRSS Liteyuki 里）：
+- [🌌 TRSS](https://TRSS.me)
+
+详细使用方法请参考其文档。
+
+## Poetry旧版安装教程
+以下为之前使用Poetry来安装的旧版教程，供老用户参考：
 - [环境配置](guide/environment-install.md)
 - [安装小派蒙](guide/paimon-install.md)
 
 
-## 安装NoneBot插件商店的插件
+## 安装NoneBot商店的插件
 ::: tip 指路
 点击此处前往[NoneBot插件商店](https://v2.nonebot.dev/store)
 :::
-在商店处复制你想要安装的插件的**安装命令**， 在小派蒙的目录运行命令即可安装。
+在商店处复制你想要安装的插件的**安装命令**(大多是`nb plugin install 插件名`)， 在小派蒙的目录运行命令即可安装。
 
-基本上支持所有NoneBot插件，不过可能部分插件的指令有冲突，可以使用`nb plugin uninstall 插件名`命令来卸载插件。
+支持绝大部分NoneBot插件，不过可能部分插件的指令有冲突，可以使用`nb plugin uninstall 插件名`命令来卸载插件。
+
+::: info 使用Poetry
+如果你是使用Poetry部署的用户，你需要在命令前添加`poetry run`，即：
+- `poetry run nb plugin install 插件名`
+- `poetry run nb plugin uninstall 插件名`
+:::
+
