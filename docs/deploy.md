@@ -168,31 +168,35 @@ servers:
 需要保持命令行窗口一直运行，不能关闭(如果使用的是`go-cqhttp`本体，那它窗口也不能关闭)
 
 ### Ubuntu
-推荐使用`screen`命令来管理后台运行。
-::: tip 如果系统没有自带screen，可以使用命令 apt install screen 来安装
+推荐使用`tmux`命令来管理后台运行。
+::: tip 如果系统没有自带tmux，可以使用命令 apt install tmux 来安装
 :::
 
-在小派蒙所在目录，使用screen来后台运行小派蒙：
+在小派蒙所在目录，使用tmux来后台运行小派蒙：
 ```shell
-screen -S paimon nb paimon run
+tmux new -s paimon nb paimon run
 ```
-运行后，会新开一个终端窗口来运行派蒙，按 **`Ctrl+A+D`** 即可让它退到**后台**。
+运行后，会新开一个终端窗口来运行派蒙，按 **`Ctrl+B D`** 即可让它退到**后台**。
 
 使用以下命令即可让它重新回到**前台**：
 ```shell
-screen -r paimon
+tmux a -t paimon
 ```
 ---
 
 `go-cqhttp`本体版同理：
 ```shell
-screen -S gocq ./go-cqhttp  # 运行
-screen -r gocq  # 调回前台
+tmux new -s gocq ./go-cqhttp  # 运行
+tmux a -t gocq  # 调回前台
 ```
 ---
-关于`screen`的详细使用方法请参考[Linux screen命令 菜鸟教程](https://www.runoob.com/linux/linux-comm-screen.html)。
+关于`tmux`的详细使用方法请参考[Tmux使用手册](http://louiszhai.github.io/2017/09/30/tmux)。
 
 此外，你还可以使用`nohup`、`pm2`、`supervisor`等命令，请自行搜索。
+
+## TRSS 脚本
+通过脚本安装管理小派蒙（在 TRSS Liteyuki 里）：
+- [🌌 TRSS](https://TRSS.me)
 
 ## 老教程
 以下为之前使用Poetry来安装的老教程，供老用户参考：
